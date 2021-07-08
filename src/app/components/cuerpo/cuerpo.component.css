@@ -1,0 +1,89 @@
+.wrapper {
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+hr {
+    margin: 7;
+    width: 100%;
+    background-color: #D2D3D7;
+}
+
+.boton {
+    border: 2px solid black;
+    border-color: black;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    height: 30px;
+    padding-top: 5px;
+}
+
+.lateral {
+    margin-left: 40%;
+}
+
+.boton:hover {
+    background-color: blue;
+    transition: background-color 0.8s linear 0.2s;
+    color: white;
+    cursor: pointer;
+}
+
+.title {
+    text-align: center;
+}
+
+.centrales {
+    width: 450px;
+}
+
+.img-port {
+    border-radius: 30px;
+}
+
+.row .mt-4 {
+    padding: 10px;
+}
+
+.etiqueta {
+    background-color: #E3E3E3;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.ventas {
+    width: 60%;
+    color: white;
+    background-color: darkblue;
+    border-color: none;
+}
+
+
+/* Cards */
+
+.card {
+    text-align: center;
+    font-size: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+    background-color: white;
+    text-align: left;
+}
+
+.card-footer {
+    background-color: white;
+}
+
+.img-tarjet {
+    object-fit: none;
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}

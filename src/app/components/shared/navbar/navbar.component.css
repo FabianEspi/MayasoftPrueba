@@ -1,0 +1,43 @@
+/* Navbar Styles */
+
+.wrapper {
+    margin: 0;
+    padding-top: 50px;
+    width: 100%;
+    height: 90px;
+    background-color: white;
+}
+
+.wrapper .wrapper-nav {
+    background-color: #D2D3D7;
+    width: 100%;
+    height: 45px;
+    border-radius: 15px;
+}
+
+.wrapper .wrapper-nav .img-nav {
+    width: 40px;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.boton {
+    text-align: center;
+}
+
+.boton:hover {
+    border: 1px solid black;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.div-boton {
+    width: 300px;
+    margin-left: 70px;
+}
+
+.icon-nav {
+    text-align: end;
+    margin-right: 50px;
+    cursor: pointer;
+}

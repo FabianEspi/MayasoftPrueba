@@ -1,0 +1,12 @@
+.container {
+    margin-top: 60px;
+}
+
+img {
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+img:hover {
+    filter: none;
+}
