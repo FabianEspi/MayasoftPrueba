@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CuerpoComponent implements OnInit {
 
+  valor = 4;
+
   constructor() { }
 
   ngOnInit(): void {

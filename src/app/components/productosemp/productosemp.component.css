@@ -7,6 +7,10 @@
     width: 100%;
 }
 
+.tarjetas h4 {
+    font-weight: bold;
+}
+
 hr {
     background-color: white;
     width: 90%;

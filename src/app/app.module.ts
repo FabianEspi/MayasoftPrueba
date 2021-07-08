@@ -12,6 +12,7 @@ import { ContentVComponent } from './components/content-v/content-v.component';
 import { PreguntasComponent } from './components/preguntas/preguntas.component';
 import { PaquetesComponent } from './components/paquetes/paquetes.component';
 import { ProductosempComponent } from './components/productosemp/productosemp.component';
+import {RatingModule } from 'ng-starrating';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { ProductosempComponent } from './components/productosemp/productosemp.co
    
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RatingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

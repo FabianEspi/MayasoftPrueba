@@ -23,6 +23,8 @@
 
 .boton {
     text-align: center;
+    font-family: cursive;
+    cursor: pointer;
 }
 
 .boton:hover {
@@ -31,8 +33,13 @@
     border-radius: 10px;
 }
 
+.wrapper-nav i {
+    font-weight: bold;
+    font-size: 105%;
+}
+
 .div-boton {
-    width: 300px;
+    width: 320px;
     margin-left: 70px;
 }
 
